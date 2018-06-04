@@ -14,3 +14,8 @@ chsh -s $(which zsh)
 sudo apt-get -y install tmux
 rm -rf ~/.tmux.conf
 ln -sf ~/.dotfiles/tmux.conf ~/.tmux.conf
+
+# emacs
+sudo apt-get -y install emacs
+rm -rf ~/.emacs.d
+ln -sf ~/.dotfiles/emacs.d ~/.emacs.d
