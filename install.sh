@@ -11,5 +11,6 @@ ln -sf ~/.dotfiles/oh-my-zsh ~/.oh-my-zsh
 chsh -s $(which zsh)
 
 # tmux
+sudo apt-get -y install tmux
 rm -rf ~/.tmux.conf
 ln -sf ~/.dotfiles/tmux.conf ~/.tmux.conf
