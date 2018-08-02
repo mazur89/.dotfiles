@@ -96,3 +96,5 @@ export PYTHONPATH=~/WayveCode:$PYTHONPATH
 
 # SET UP ROS
 source /opt/ros/ardent/setup.zsh
+source /opt/ningaloo/ros/local_setup.zsh
+source /opt/ningaloo/wayvecore/local_setup.zsh
