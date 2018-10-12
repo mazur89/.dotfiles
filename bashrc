@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # Wayve Technologies
-export PYTHONPATH=/home/przemek/WayveCode:$PYTHONPATH
+export PYTHONPATH=/home/przemek/code/WayveCode:$PYTHONPATH
 source /opt/ros/ardent/setup.bash
 
 # #start ssh agent

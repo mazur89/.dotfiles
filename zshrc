@@ -92,7 +92,7 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PYTHONPATH=~/WayveCode:$PYTHONPATH
+export PYTHONPATH=~/code/WayveCode:$PYTHONPATH
 
 # SET UP ROS
 source /opt/ros/ardent/setup.zsh
