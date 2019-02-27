@@ -63,6 +63,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+unsetopt pushd_ignore_dups
 
 # User configuration
 
@@ -92,9 +93,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PYTHONPATH=~/code/WayveCode:$PYTHONPATH
 
-# SET UP ROS
-source /opt/ros/ardent/setup.zsh
-source /opt/ningaloo/ros/local_setup.zsh
-source /opt/ningaloo/wayvecore/local_setup.zsh
+# Wayve Technologies
+export PYTHONPATH=~/code/WayveCode:$PYTHONPATH
